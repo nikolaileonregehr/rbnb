@@ -2,15 +2,14 @@
   background-color: #2C2B2B;
   color: rgba(252, 245, 245, 0.86);
   padding: 30px;
-  display: flex;
-  justify-content: space-between;
   margin-top: auto;
+  height: 200px; /* Adjust height as needed */
 }
 
 .footer-links {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  justify-content: center;
 }
 
 .footer-links p {
@@ -24,14 +23,22 @@
   opacity: 0.8;
   text-decoration: none;
   font-size: 16px;
-  padding: 0px 10px;
 }
 
 .footer-links a:hover {
   opacity: 1;
 }
 
-/*
-.fabio {
-  color: #b0cce4
-} */
+/* Add space between the first and second row */
+.footer .row + .row {
+  margin-top: 90px; /* Three times the current space */
+}
+
+.separator {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.text-right {
+  text-align: right;
+  margin-top: 15px;
+}
