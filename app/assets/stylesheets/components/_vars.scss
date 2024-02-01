@@ -1,0 +1,7 @@
+// default fonts and colors
+
+$font-family: "Roboto", sans-serif;
+
+:root {
+  --font-family: #{$font-family};
+}

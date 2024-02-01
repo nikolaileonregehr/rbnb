@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2C2B2B;
+  color: rgba(252, 245, 245, 0.86);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.footer-links p {
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: rgb(131, 172, 218);
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+/*
+.fabio {
+  color: #b0cce4
+} */

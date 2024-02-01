@@ -1,0 +1,24 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <%= link_to do %>
+          <%= image_tag "DEB-preliminary-logo.png", alt: "DEB Logo", style: "width: 50px; height: auto;" %>
+        <% end %>
+      </div>
+
+      <div class="col-4 footer-links">
+        <%= link_to "Legal notice", legalnotice_path, class: "nav-link" %> | <%= link_to "Data declaration", dataprotection_path, class: "nav-link" %>
+      </div>
+
+      <div class="col-4">
+        <p>contact: info@digitaleducationbridge.org</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>© 2024 Digital Education Bridge e.V. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>

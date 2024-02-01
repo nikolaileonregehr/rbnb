@@ -1,0 +1,34 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-deb">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand">
+      <img src="<%= asset_path('DEB-preliminary-logo') %>" alt="deb-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <%= link_to "Home", root_path, class: "dropdown-item" %>
+          </li>
+         <li>
+          <button class="signup-btn">Become a Member</button>
+         </li>
+         <li class="nav-item dropdown">
+          <span class="fa-solid fa-bars" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+          <div class="dropdown-menu dropdown-menu-end languages-dropdown" aria-labelledby="navbarDropdown">
+            <%= link_to "About Us", about_path, class: "dropdown-item" %>
+            <span class="languages__header">Languages</span>
+            <div class="flag-images">
+              <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German Flag">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="UK Flag">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" alt="Spain Flag">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1200px-Flag_of_Portugal.svg.png" alt="Portugal Flag">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
