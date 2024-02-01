@@ -1,12 +1,71 @@
-.navbar-lewagon {
+.navbar-deb {
   justify-content: space-between;
   background: white;
+  font-family: var(--font-dm-sans);
+  margin-bottom: auto;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-deb .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-deb .navbar-brand img {
+  width: 50px;
+  height: 30px;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-deb .navbar-nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar-deb .nav-item.dropdown {
+  margin-left: auto;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  width: 180px;
+  height: 40px;
+  background-color: #add29b;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup-btn:hover {
+ border-color: #b3b3b3;
+ background-color: #87b68c;
+ transition: 0.4s;
+}
+
+.languages__header {
+  margin-left: 16px;
+}
+
+.flag-images {
+  margin: 8px 8px 0 16px;
+  display: flex;
+  gap: 5px;
+}
+
+.flag-images img {
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+.flag-images img:hover {
+  opacity: 1;
 }
