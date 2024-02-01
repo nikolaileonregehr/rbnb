@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def dataprotection
   end
+
+  def signup
+  end
 end

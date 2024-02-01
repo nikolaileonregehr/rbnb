@@ -1,8 +1,8 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-deb">
   <div class="container-fluid">
-    <a href="#" class="navbar-brand">
+    <%= link_to root_path, class: "navbar-brand" do %>
       <img src="<%= asset_path('DEB-preliminary-logo') %>" alt="deb-logo">
-    </a>
+    <% end %>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,9 +12,9 @@
           <li class="nav-item active">
             <%= link_to "Home", root_path, class: "dropdown-item" %>
           </li>
-         <li>
-          <button class="signup-btn">Become a Member</button>
-         </li>
+
+          <%= link_to "Support us now", signup_path, class: "btn btn-green" %>
+
          <li class="nav-item dropdown">
           <span class="fa-solid fa-bars" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
           <div class="dropdown-menu dropdown-menu-end languages-dropdown" aria-labelledby="navbarDropdown">

@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get "/about", to: "pages#about"
   get "/legalnotice", to: "pages#legalnotice"
   get "/dataprotection", to: "pages#dataprotection"
+  get "/signup", to: "pages#signup"
 
   resources :users, only: [:new, :create]
 end
