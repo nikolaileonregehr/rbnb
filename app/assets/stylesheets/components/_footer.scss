@@ -3,7 +3,13 @@
   color: rgba(252, 245, 245, 0.86);
   padding: 30px;
   margin-top: auto;
-  height: 200px; /* Adjust height as needed */
+  // height: 200px; /* Adjust height as needed */
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .footer-links {
@@ -31,7 +37,7 @@
 
 /* Add space between the first and second row */
 .footer .row + .row {
-  margin-top: 90px; /* Three times the current space */
+  // margin-top: 90px; /* Three times the current space */
 }
 
 .separator {
