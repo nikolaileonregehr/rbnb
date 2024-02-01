@@ -1,1 +1,56 @@
-// Specific CSS for your home-page
+.deb-slogan {
+  position: relative;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+}
+
+.debmission-text {
+  color: #1F5804;
+  margin: 121px;
+}
+
+.mission-text {
+  font-size: 20px;
+}
+
+.opp-text {
+  font-size: 30px;
+}
+
+.deb-text {
+  font-size: 20px;
+}
+
+
+.imgnav {
+    float: left;
+    clip-path: inset(0px 27px 0px 13vh);
+    position: relative;
+    left: -11vh;
+    top: 20px;
+    transform: scale(1.1);
+}
+
+
+.debvision-text {
+color: white;
+text-align: right;
+}
+
+.vision-text {
+font-size: 20px;
+}
+
+.ed-text {
+font-size: 30px;
+}
+
+.bio-text {
+font-size: 20px;
+}
+
+.imgzoom {
+  float: right;
+
+}
