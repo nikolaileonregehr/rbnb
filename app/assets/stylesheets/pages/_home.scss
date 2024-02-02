@@ -1,34 +1,28 @@
-img {
-  object-fit: cover;
-
-}
-
 .deb-slogan {
   position: relative;
   text-align: left;
   color: white;
-  font-size: 30px;
+  font-size: 60px;
 }
 
-.navbox-mission {
-    background-color: #f5f5f5;
-    display: contents;
-}
-
-.navbox-part {
-    background-color: #f5f5f5;
-    margin: 100px;
-    height: 50vh;
-}
-
-.debmission-text {
-  color: #1F5804;
-  margin: 40px;
-  top: 85px;
-  position: relative;
+.row {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .mission-text {
+  text-align: left;
+  color: #1F5804;
+  padding: 25px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mission-title {
   font-size: 20px;
 }
 
@@ -40,28 +34,17 @@ img {
   font-size: 20px;
 }
 
-.imgnav {
-    float: left;
-    left: -18vh;
-    position: relative;
-    top: -85px;
-    transform: scale(1.2);
-    // clip-path: inset(0px 27px 0px 17vh);
-}
-
-.imgzoom {
-    float: right;
-    left: 0px;
-    position: relative;
-    // clip-path: inset(0px 196px 0px 50px);
+.visionrow {
+  background-color: #1F5804;
 }
 
 .debvision-text {
 color: white;
 text-align: right;
+padding: 25px;
 }
 
-.vision-text {
+.vision-title {
 font-size: 20px;
 }
 
@@ -73,8 +56,8 @@ font-size: 30px;
 font-size: 20px;
 }
 
-.partners {
-  color: #1F5804;
-  font-size: 30px;
-  text-align: center;
-}
+// .partners {
+//   color: #1F5804;
+//   font-size: 30px;
+//   text-align: center;
+// }
