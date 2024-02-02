@@ -1,3 +1,8 @@
+img {
+  object-fit: cover;
+
+}
+
 .deb-slogan {
   position: relative;
   text-align: left;
@@ -5,9 +10,22 @@
   font-size: 30px;
 }
 
+.navbox-mission {
+    background-color: #f5f5f5;
+    display: contents;
+}
+
+.navbox-part {
+    background-color: #f5f5f5;
+    margin: 100px;
+    height: 50vh;
+}
+
 .debmission-text {
   color: #1F5804;
-  margin: 121px;
+  margin: 40px;
+  top: 85px;
+  position: relative;
 }
 
 .mission-text {
@@ -22,16 +40,21 @@
   font-size: 20px;
 }
 
-
 .imgnav {
     float: left;
-    clip-path: inset(0px 27px 0px 13vh);
+    left: -18vh;
     position: relative;
-    left: -11vh;
-    top: 20px;
-    transform: scale(1.1);
+    top: -85px;
+    transform: scale(1.2);
+    // clip-path: inset(0px 27px 0px 17vh);
 }
 
+.imgzoom {
+    float: right;
+    left: 0px;
+    position: relative;
+    // clip-path: inset(0px 196px 0px 50px);
+}
 
 .debvision-text {
 color: white;
@@ -50,7 +73,8 @@ font-size: 30px;
 font-size: 20px;
 }
 
-.imgzoom {
-  float: right;
-
+.partners {
+  color: #1F5804;
+  font-size: 30px;
+  text-align: center;
 }
