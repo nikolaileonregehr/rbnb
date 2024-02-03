@@ -28,4 +28,13 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  global:
+    forms:
+      submit: Apply for membership
+    navbar:
+      apply: "Support us now"
+      about: "About Us"
+      languages: "Languages"
+  pages:
+    home:
+      slogan_html: "<strong>FREE EDUCATION. <br> POWERED TROUGH THE INTERNET.</strong>"
