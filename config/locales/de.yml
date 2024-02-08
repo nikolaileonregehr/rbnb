@@ -1,0 +1,11 @@
+de:
+  global:
+    navbar:
+      apply: "Unterstützen Sie uns jetzt"
+      about: "Über uns"
+      languages: "Sprachen"
+    form:
+      button: Apply for giving
+  pages:
+    home:
+      slogan_html: "<strong>KOSTENLOSE BILDUNG. <br> ANGETRIEBEN ÜBER DAS INTERNET.</strong>"

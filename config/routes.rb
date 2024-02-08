@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-  get 'users/create'
-  get 'user/new'
-  get 'user/create'
   # Defines the root path route ("/")
   # root "posts#index"
   root to: "pages#home"
@@ -15,7 +11,6 @@ Rails.application.routes.draw do
   get "/about", to: "pages#about"
   get "/legalnotice", to: "pages#legalnotice"
   get "/dataprotection", to: "pages#dataprotection"
-  get "/signup", to: "pages#signup"
-
-  resources :users, only: [:new, :create]
+  get "signup", to: "users#new"
+  post "signup", to: "users#create"
 end

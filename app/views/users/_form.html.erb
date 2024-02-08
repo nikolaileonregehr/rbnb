@@ -1,0 +1,40 @@
+  <div class="container p-4" style="background-color: #f0f0f0">
+    <div class="row justify-content-center">
+      <%= simple_form_for '', url: 'https://script.google.com/macros/s/AKfycbxlPwmxTbnmoDdrY89vr7h709dk_-tRI3FB_oybrT06Fe8Plj76EoAUD4oYCuD9_v3uxw/exec', method: :post, html: { class: 'col-md-8' } do |f| %>
+
+        <div class="Form">
+          <div class="row">
+            <div class="col-md-6">
+              <%= f.input :First_name, label: 'Name', required: true, placeholder: 'First name', input_html: { class: 'form-control mb-3' } %>
+            </div>
+            <div class="col-md-6">
+              <%= f.input :Last_name, required: true, placeholder: 'Last name', input_html: { class: 'form-control mb-3' } %>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <%= f.input :Street_and_street_number, label: 'Address', required: true, placeholder: 'Street & street number', input_html: { class: 'form-control mb-3' } %>
+            </div>
+            <div class="col-md-6">
+              <%= f.input :Postal_code, required: true, placeholder: 'Postal code', input_html: { class: 'form-control mb-3' } %>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <%= f.input :City, required: true, placeholder: 'City', input_html: { class: 'form-control mb-3' } %>
+            </div>
+            <div class="col-md-6">
+              <%= f.input :Country, required: true, placeholder: 'Country', input_html: { class: 'form-control mb-3' } %>
+            </div>
+          </div>
+
+          <%= f.input :Email, label: 'Email', required: true, placeholder: 'Email address', input_html: { class: 'form-control-lg mb-3' } %>
+          <%= f.input :Your_reason_to_join, label: 'Why do you want to join us as a member?', as: :text, required: true, placeholder: 'Write more than 100 characters', input_html: { class: 'form-control-lg mb-3', rows: 3 } %>
+          <%= f.submit t('global.forms.subum'), class: 'btn btn-primary' %>
+
+        </div>
+      <% end %>
+
+    </div>
+  </div>

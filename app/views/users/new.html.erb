@@ -1,60 +1,20 @@
 <div class="banner" background-color="green">
-  <div class="container">
-    <h1><strong>Support Digital Education Bridge</strong></h1>
+  <h1><strong>Support Digital Education Bridge</strong></h1>
+</div>
+
+<div class="signup-content">
+  <div class="signup-header">
+    <h2>Become a member of the Digital Education Bridge e.V.</h2>
+    <p>Join us to get involved in projects, follow our development and support us in scaling DEB.</p>
+    <p>Currently the association does not require membership fees.</p>
   </div>
-</div>
 
-<div class="signup-header">
-  <h2>Become a member of the Digital Education Bridge e.V.</h2>
-  <p>Join us to get involved in projects, follow our development and support us in scaling DEB. Currently there are no membership fees.</p>
-</div>
+  <%= render 'form' %>
 
-
-<div class="container" style="background-color: #f0f0f0">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <form method="POST" action="https://script.google.com/macros/s/AKfycbxlPwmxTbnmoDdrY89vr7h709dk_-tRI3FB_oybrT06Fe8Plj76EoAUD4oYCuD9_v3uxw/exec">
-        <div class="Form col-md-8">
-          <label for="nameinput">Name</label>
-          <div class="form-group">
-            <input name="First name" type="text" placeholder="First name" required>
-            <input name="Last name" type="text" placeholder="Last name" required>
-          </div>
-
-          <label for="addressinput">Adress</label>
-          <div class="form-group">
-            <div class="col">
-              <input name="Street & street number" type="text" placeholder="Street & street number" required>
-              <input name="Postal code" type="text" placeholder="Postal code" required>
-            </div>
-            <div class="col">
-              <input name="City" type="text" placeholder="City" required>
-              <input name="Country" type="text" placeholder="Country" required>
-            </div>
-          </div>
-
-          <label for="emailinput">Email</label>
-          <div class="form-group">
-            <input class="form-control-lg" name="Email" type="email" placeholder="Email address" required>
-          </div>
-
-          <label for="membershipreasoninput">Why do you want to join us as a member?</label>
-          <div class="form-group">
-            <textarea class="form-control-lg" name="Your reason to join" type="text" placeholder="Write more than 100 characters" required id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary">Apply for membership</button>
-
-        </div>
-      </form>
+  <div class="donate-header" style="margin-top: 20px;">
+    <h2>Donate to Digital Education Bridge e.V.</h2>
+    <div class="donate-content p-4" style="background-color: #f0f0f0">
+      <p class="comingsoon">         Coming soon...</p>
     </div>
-  </div>
-</div>
-
-
-<div class="donate-header">
-  <h2>Donate to Digital Education Bridge e.V.</h2>
-  <div class="donate-content" style="background-color: #f0f0f0">
-    <p>         Coming soon...</p>
   </div>
 </div>
