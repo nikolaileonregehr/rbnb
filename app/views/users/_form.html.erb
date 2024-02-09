@@ -28,11 +28,15 @@
               <%= f.input :Country, required: true, placeholder: 'Country', input_html: { class: 'form-control mb-3' } %>
             </div>
           </div>
-
-          <%= f.input :Email, label: 'Email', required: true, placeholder: 'Email address', input_html: { class: 'form-control-lg mb-3' } %>
-          <%= f.input :Your_reason_to_join, label: 'Why do you want to join us as a member?', as: :text, required: true, placeholder: 'Write more than 100 characters', input_html: { class: 'form-control-lg mb-3', rows: 3 } %>
-          <%= f.submit t('global.forms.subum'), class: 'btn btn-primary' %>
-
+          <div class="col-md-12">
+            <%= f.input :Email, label: 'Email', required: true, placeholder: 'Email address', input_html: { class: 'form-control-lg mb-3' } %>
+          </div>
+          <div class="col-md-12">
+            <%= f.input :Your_reason_to_join, label: 'Why do you want to join us as a member?', as: :text, required: true, placeholder: 'Write more than 100 characters', input_html: { class: 'form-control-lg mb-3', rows: 3 } %>
+          </div>
+          <div class="col-md-12">
+            <%= f.submit t('global.forms.submit'), class: 'btn btn-primary col-md-12' %>
+          </div>
         </div>
       <% end %>
 
